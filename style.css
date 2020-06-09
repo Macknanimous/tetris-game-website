@@ -3,16 +3,23 @@ html {
     height: 100%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .grid {
-    width: 200px;
-    height: 400px;
+    width: 300px;
+    height: 600px;
     display: flex;
     flex-wrap: wrap;
     background-color: black;
 }
 
 .grid div {
-    width: 20px;
-    height: 20px;
-    background-color: lightblue;
+    width: 30px;
+    height: 30px;
+}
+
+.tetromino {
+    background-color: red;
 }
