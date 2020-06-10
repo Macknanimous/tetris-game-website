@@ -7,6 +7,10 @@ html {
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+}
+
 .grid {
     width: 300px;
     height: 600px;
@@ -22,4 +26,18 @@ html {
 
 .tetromino {
     background-color: red;
+}
+
+.mini-grid {
+    margin-left: 80px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.mini-grid div {
+    width: 30px;
+    height: 30px;
 }
